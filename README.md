@@ -1,4 +1,9 @@
-# DSL Monitor - Arris NVG443B ADSL/VDSL2+
+# DSL Errors/Internet Speed/Weather Monitor
+
+Polls the Arris NVG443B ADSL/VDSL2+ modem for stats (errors, connection speed, etc)
+Polls speedtest.net for internet speed data
+Polls pirateweather.net for weather data which may impact DSL line quality
+
 
 ![Alt text](https://raw.github.com/keithknott26/dsl_internet_monitoring/master/dsl_internet_monitoring_screenshot.png?raw=true "Grafana Screenshot")
 
