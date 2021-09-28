@@ -31,7 +31,8 @@ Open dsl/parse_arris_stats_page.py and replace 192.168.254.254 with your Modem's
 
 ## Bring the services up
 
-```docker-compose build
+```
+docker-compose build
 docker-compose up
 ```
 
