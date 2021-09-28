@@ -7,7 +7,7 @@ import requests
 from prometheus_client import Gauge, Enum, start_http_server
 
 #PIRATE_WEATHER_API_KEY = os.getenv("PIRATE_WEATHER_API_KEY")
-PIRATE_WEATHER_API_KEY = "uFDBS3TBks2bTrerMwmNG8YSqYiinUqQSKckObEf"
+PIRATE_WEATHER_API_KEY = "xxxxxxxx"
 PIRATE_WEATHER_ENDPOINT = "https://api.pirateweather.net/forecast/"
 #LAT_LONG = os.getenv("LAT_LONG")
 LAT_LONG = "41.578471,-73.41749"
