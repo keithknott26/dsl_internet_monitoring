@@ -75,5 +75,7 @@ networks:
     driver: host
     external: true
   my-multihost-network:
-    driver: bridge
+    driver: overlay
     external: true
+
+  ##docker network create --driver=overlay --attachable --subnet=192.168.2.0/24 my-multihost-network
